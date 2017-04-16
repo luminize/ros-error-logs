@@ -1,0 +1,207 @@
+00:00.0 Host bridge: Intel Corporation 5400 Chipset Memory Controller Hub (rev 20)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, fast devsel, latency 0, IRQ 255
+	Capabilities: <access denied>
+
+00:01.0 PCI bridge: Intel Corporation 5400 Chipset PCI Express Port 1 (rev 20) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=80, subordinate=80, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:05.0 PCI bridge: Intel Corporation 5400 Chipset PCI Express Port 5 (rev 20) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=60, subordinate=60, sec-latency=0
+	I/O behind bridge: 00001000-00001fff
+	Memory behind bridge: dc000000-de0fffff
+	Prefetchable memory behind bridge: 00000000f0000000-00000000fbffffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:09.0 PCI bridge: Intel Corporation 5400 Chipset PCI Express Port 9 (rev 20) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=10, subordinate=40, sec-latency=0
+	Memory behind bridge: de400000-de4fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:10.0 Host bridge: Intel Corporation 5400 Chipset FSB Registers (rev 20)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: fast devsel
+	Kernel driver in use: i5400_edac
+
+00:10.1 Host bridge: Intel Corporation 5400 Chipset FSB Registers (rev 20)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: fast devsel
+
+00:10.2 Host bridge: Intel Corporation 5400 Chipset FSB Registers (rev 20)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: fast devsel
+
+00:10.3 Host bridge: Intel Corporation 5400 Chipset FSB Registers (rev 20)
+	Subsystem: Intel Corporation Device 8086
+	Flags: fast devsel
+
+00:10.4 Host bridge: Intel Corporation 5400 Chipset FSB Registers (rev 20)
+	Subsystem: Intel Corporation Device 8086
+	Flags: fast devsel
+
+00:11.0 Host bridge: Intel Corporation 5400 Chipset CE/SF Registers (rev 20)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: fast devsel
+
+00:15.0 Host bridge: Intel Corporation 5400 Chipset FBD Registers (rev 20)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: fast devsel
+
+00:15.1 Host bridge: Intel Corporation 5400 Chipset FBD Registers (rev 20)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: fast devsel
+
+00:16.0 Host bridge: Intel Corporation 5400 Chipset FBD Registers (rev 20)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: fast devsel
+
+00:16.1 Host bridge: Intel Corporation 5400 Chipset FBD Registers (rev 20)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: fast devsel
+
+00:1b.0 Audio device: Intel Corporation 631xESB/632xESB High Definition Audio Controller (rev 09)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, fast devsel, latency 0, IRQ 28
+	Memory at de300000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+
+00:1c.0 PCI bridge: Intel Corporation 631xESB/632xESB/3100 Chipset PCI Express Root Port 1 (rev 09) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=0e, subordinate=0e, sec-latency=0
+	Memory behind bridge: de100000-de1fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:1d.0 USB controller: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller #1 (rev 09) (prog-if 00 [UHCI])
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, medium devsel, latency 0, IRQ 16
+	I/O ports at 2000 [size=32]
+	Kernel driver in use: uhci_hcd
+
+00:1d.1 USB controller: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller #2 (rev 09) (prog-if 00 [UHCI])
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, medium devsel, latency 0, IRQ 19
+	I/O ports at 2020 [size=32]
+	Kernel driver in use: uhci_hcd
+
+00:1d.2 USB controller: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller #3 (rev 09) (prog-if 00 [UHCI])
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, medium devsel, latency 0, IRQ 18
+	I/O ports at 2040 [size=32]
+	Kernel driver in use: uhci_hcd
+
+00:1d.3 USB controller: Intel Corporation 631xESB/632xESB/3100 Chipset UHCI USB Controller #4 (rev 09) (prog-if 00 [UHCI])
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, medium devsel, latency 0, IRQ 22
+	I/O ports at 2060 [size=32]
+	Kernel driver in use: uhci_hcd
+
+00:1d.7 USB controller: Intel Corporation 631xESB/632xESB/3100 Chipset EHCI USB2 Controller (rev 09) (prog-if 20 [EHCI])
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, medium devsel, latency 0, IRQ 16
+	Memory at de304000 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: <access denied>
+	Kernel driver in use: ehci-pci
+
+00:1e.0 PCI bridge: Intel Corporation 82801 PCI Bridge (rev d9) (prog-if 01 [Subtractive decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=32
+	Memory behind bridge: de200000-de2fffff
+	Capabilities: <access denied>
+
+00:1f.0 ISA bridge: Intel Corporation 631xESB/632xESB/3100 Chipset LPC Interface Controller (rev 09)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, medium devsel, latency 0
+	Kernel driver in use: lpc_ich
+
+00:1f.1 IDE interface: Intel Corporation 631xESB/632xESB IDE Controller (rev 09) (prog-if 8a [Master SecP PriP])
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, medium devsel, latency 0, IRQ 17
+	I/O ports at 01f0 [size=8]
+	I/O ports at 03f4
+	I/O ports at 0170 [size=8]
+	I/O ports at 0374
+	I/O ports at 20c0 [size=16]
+	Kernel driver in use: ata_piix
+
+00:1f.2 RAID bus controller: Intel Corporation 631xESB/632xESB SATA RAID Controller (rev 09)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 19
+	I/O ports at 20e0 [size=8]
+	I/O ports at 20f8 [size=4]
+	I/O ports at 20e8 [size=8]
+	I/O ports at 20fc [size=4]
+	I/O ports at 2080 [size=32]
+	Memory at de304400 (32-bit, non-prefetchable) [size=1K]
+	Capabilities: <access denied>
+	Kernel driver in use: ahci
+
+01:04.0 DPIO module: Device 2718:5125 (rev 01)
+	Subsystem: Device 2718:5125
+	Flags: medium devsel, IRQ 3
+	Memory at de200000 (32-bit, non-prefetchable) [size=64K]
+
+01:09.0 Network controller: PEAK-System Technik GmbH PCAN-PCI CAN-Bus controller (rev 02)
+	Subsystem: PEAK-System Technik GmbH 2 Channel CAN Bus SJC1000
+	Flags: medium devsel, IRQ 18
+	Memory at de210000 (32-bit, non-prefetchable) [size=64K]
+	Memory at de220000 (32-bit, non-prefetchable) [size=64K]
+	Kernel driver in use: pcan
+
+0e:00.0 Ethernet controller: Broadcom Corporation NetXtreme BCM5755 Gigabit Ethernet PCI Express (rev 02)
+	Subsystem: Hewlett-Packard Company Device 1307
+	Flags: bus master, fast devsel, latency 0, IRQ 31
+	Memory at de100000 (64-bit, non-prefetchable) [size=64K]
+	Expansion ROM at <ignored> [disabled]
+	Capabilities: <access denied>
+	Kernel driver in use: tg3
+
+10:00.0 PCI bridge: Intel Corporation 6311ESB/6321ESB PCI Express Upstream Port (rev 01) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=10, secondary=1e, subordinate=40, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+10:00.3 PCI bridge: Intel Corporation 6311ESB/6321ESB PCI Express to PCI-X Bridge (rev 01) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=10, secondary=11, subordinate=1d, sec-latency=32
+	Capabilities: <access denied>
+
+1e:00.0 PCI bridge: Intel Corporation 6311ESB/6321ESB PCI Express Downstream Port E1 (rev 01) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=1e, secondary=20, subordinate=20, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+1e:01.0 PCI bridge: Intel Corporation 6311ESB/6321ESB PCI Express Downstream Port E2 (rev 01) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0
+	Bus: primary=1e, secondary=40, subordinate=40, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+60:00.0 VGA compatible controller: NVIDIA Corporation GF100GL [Quadro 6000] (rev a3) (prog-if 00 [VGA controller])
+	Subsystem: NVIDIA Corporation Device 076f
+	Flags: bus master, fast devsel, latency 0, IRQ 30
+	Memory at dc000000 (32-bit, non-prefetchable) [size=32M]
+	Memory at f0000000 (64-bit, prefetchable) [size=128M]
+	Memory at f8000000 (64-bit, prefetchable) [size=64M]
+	I/O ports at 1000 [size=128]
+	[virtual] Expansion ROM at de080000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: nouveau
+
+60:00.1 Audio device: NVIDIA Corporation GF100 High Definition Audio Controller (rev a1)
+	Subsystem: NVIDIA Corporation Device 076f
+	Flags: bus master, fast devsel, latency 0, IRQ 29
+	Memory at de000000 (32-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+
