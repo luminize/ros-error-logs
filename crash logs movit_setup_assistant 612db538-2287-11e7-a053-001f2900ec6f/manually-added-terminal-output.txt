@@ -1,0 +1,38 @@
+machinekit@xw6600:~$ roslaunch moveit_setup_assistant setup_assistant.launch 
+... logging to /home/machinekit/.ros/log/612db538-2287-11e7-a053-001f2900ec6f/roslaunch-xw6600-5908.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://192.168.1.11:56806/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.7
+
+NODES
+  /
+    moveit_setup_assistant (moveit_setup_assistant/moveit_setup_assistant)
+
+auto-starting new master
+process[master]: started with pid [5919]
+ROS_MASTER_URI=http://192.168.1.11:11311
+
+setting /run_id to 612db538-2287-11e7-a053-001f2900ec6f
+process[rosout-1]: started with pid [5932]
+started core service [/rosout]
+process[moveit_setup_assistant-2]: started with pid [5939]
+================================================================================REQUIRED process [moveit_setup_assistant-2] has died!
+process has died [pid 5939, exit code -11, cmd /opt/ros/kinetic/lib/moveit_setup_assistant/moveit_setup_assistant __name:=moveit_setup_assistant __log:=/home/machinekit/.ros/log/612db538-2287-11e7-a053-001f2900ec6f/moveit_setup_assistant-2.log].
+log file: /home/machinekit/.ros/log/612db538-2287-11e7-a053-001f2900ec6f/moveit_setup_assistant-2*.log
+Initiating shutdown!
+================================================================================
+[moveit_setup_assistant-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
