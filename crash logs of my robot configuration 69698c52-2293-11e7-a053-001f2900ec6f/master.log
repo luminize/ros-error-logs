@@ -1,0 +1,447 @@
+[rosmaster.main][INFO] 2017-04-16 12:56:58,888: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2017-04-16 12:56:58,888: Starting ROS Master Node
+[xmlrpc][INFO] 2017-04-16 12:56:58,890: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2017-04-16 12:56:58,890: Started XML-RPC server [http://xw6600:11311/]
+[rosmaster.master][INFO] 2017-04-16 12:56:58,891: Master initialized: port[11311], uri[http://xw6600:11311/]
+[xmlrpc][INFO] 2017-04-16 12:56:58,891: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2017-04-16 12:56:58,986: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:58,989: +PARAM [/roslaunch/uris/host_xw6600__58113] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,130: +PARAM [/move_group/planner_configs/RRTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,132: +PARAM [/robot_description_semantic] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,132: +PARAM [/move_group/manipulator/longest_valid_segment_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,132: +PARAM [/robot_description_planning/joint_limits/joint_3/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,133: +PARAM [/robot_description_planning/joint_limits/joint_5/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,133: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,133: +PARAM [/move_group/controller_list] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,133: +PARAM [/move_group/max_safe_path_cost] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,133: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,133: +PARAM [/rviz_xw6600_6840_6061290368335357027/manipulator/kinematics_solver_attempts] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,134: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,134: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,135: +SERVICE [/rosout/get_loggers] /rosout http://xw6600:41044/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,135: +PARAM [/move_group/planner_configs/PRMkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,136: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,136: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,136: +PARAM [/robot_description_planning/joint_limits/joint_4/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,137: +SERVICE [/rosout/set_logger_level] /rosout http://xw6600:41044/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,138: +PARAM [/move_group/planner_configs/PRMkConfigDefault/max_nearest_neighbors] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,139: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,139: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,139: +PARAM [/robot_description_planning/joint_limits/joint_1/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,140: +PARAM [/move_group/planner_configs/SBLkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,140: +PARAM [/robot_description_planning/joint_limits/joint_3/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,140: +PARAM [/move_group/manipulator/planner_configs] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,140: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/frountierNodeRatio] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,141: +PARAM [/move_group/moveit_controller_manager] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,141: +PARAM [/move_group/planning_plugin] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,141: +PARAM [/robot_description_planning/joint_limits/joint_5/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,142: +PUB [/rosout_agg] /rosout http://xw6600:41044/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,142: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,142: +PARAM [/robot_description_planning/joint_limits/joint_2/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,143: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/max_states_failed] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,143: +PARAM [/robot_description_planning/joint_limits/joint_2/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,143: +PARAM [/robot_description_planning/joint_limits/joint_5/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,144: +PARAM [/move_group/planner_configs/ESTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,144: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,144: +PARAM [/rviz_xw6600_6840_6061290368335357027/manipulator/kinematics_solver_timeout] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,144: +PARAM [/robot_description_planning/joint_limits/joint_1/min_position] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,144: +PARAM [/move_group/planner_configs/PRMstarkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,145: +PARAM [/move_group/planner_configs/RRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,146: +PARAM [/move_group/allow_trajectory_execution] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,147: +PARAM [/move_group/planner_configs/ESTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,147: +PARAM [/move_group/start_state_max_bounds_error] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,148: +PARAM [/robot_description_kinematics/manipulator/kinematics_solver_attempts] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,148: +PARAM [/move_group/max_range] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,148: +PARAM [/robot_description_planning/joint_limits/joint_4/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,149: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/init_temperature] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,149: +PARAM [/joint_state_publisher/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,149: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,150: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,150: +PARAM [/rviz_xw6600_6840_6061290368335357027/manipulator/kinematics_solver_search_resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,151: +PARAM [/move_group/moveit_manage_controllers] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,152: +PARAM [/robot_description_planning/joint_limits/joint_3/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,152: +PARAM [/robot_description_planning/joint_limits/joint_4/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,153: +SUB [/rosout] /rosout http://xw6600:41044/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,153: +PARAM [/robot_description_kinematics/manipulator/kinematics_solver_search_resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,153: +PARAM [/move_group/planner_configs/ESTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,154: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,154: +PARAM [/move_group/jiggle_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,154: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,154: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,155: +PARAM [/robot_description_planning/joint_limits/joint_5/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,155: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/temp_change_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,155: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,155: +PARAM [/move_group/planner_configs/SBLkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,155: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,155: +PARAM [/move_group/capabilities] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,156: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,156: +PARAM [/robot_description_kinematics/manipulator/kinematics_solver_timeout] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,156: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,156: +PARAM [/move_group/allowed_execution_duration_scaling] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,156: +PARAM [/robot_description_planning/joint_limits/joint_2/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,156: +PARAM [/robot_description_planning/joint_limits/joint_2/max_position] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,157: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,157: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,157: +PARAM [/move_group/planner_configs/RRTConnectkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,157: +PARAM [/move_group/request_adapters] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,157: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/min_temperature] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,157: +PARAM [/robot_description_planning/joint_limits/joint_1/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,157: +PARAM [/robot_description_planning/joint_limits/joint_4/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,158: +PARAM [/move_group/gripper/planner_configs] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,158: +PARAM [/move_group/manipulator/projection_evaluator] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,158: +PARAM [/robot_description_planning/joint_limits/joint_3/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,158: +PARAM [/move_group/octomap_resolution] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,158: +PARAM [/move_group/allowed_goal_duration_margin] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,158: +PARAM [/rviz_xw6600_6840_6061290368335357027/manipulator/kinematics_solver] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,159: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/failed_expansion_score_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,159: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,159: +PARAM [/robot_description_planning/joint_limits/joint_2/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,159: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/delay_collision_checking] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,159: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,159: +PARAM [/move_group/planner_configs/RRTConnectkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,160: +PARAM [/robot_description_planning/joint_limits/joint_1/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,160: +PARAM [/robot_description_kinematics/manipulator/kinematics_solver] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,160: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/failed_expansion_score_factor] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,160: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,160: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,160: +PARAM [/robot_description_planning/joint_limits/joint_1/max_position] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,161: +PARAM [/robot_description_planning/joint_limits/joint_1/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,161: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/k_constant] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,161: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/frountier_threshold] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,161: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,161: +PARAM [/move_group/planner_configs/RRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,161: +PARAM [/source_list] by /roslaunch
+[rosmaster.master][INFO] 2017-04-16 12:56:59,258: +PUB [/rosout] /robot_state_publisher http://xw6600:45202/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,260: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://xw6600:45202/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,262: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://xw6600:45202/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,272: +PUB [/tf] /robot_state_publisher http://xw6600:45202/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,273: +PUB [/tf_static] /robot_state_publisher http://xw6600:45202/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,290: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:45202/']
+[rosmaster.master][INFO] 2017-04-16 12:56:59,294: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:45202/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-04-16 12:56:59,296: +SUB [/joint_states] /robot_state_publisher http://xw6600:45202/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,569: +PUB [/rosout] /joint_state_publisher http://xw6600:54096/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,574: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://xw6600:54096/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,576: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://xw6600:54096/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,590: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:45202/', 'http://xw6600:54096/']
+[rosmaster.master][INFO] 2017-04-16 12:56:59,592: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:45202/', 'http://xw6600:54096/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-04-16 12:56:59,624: +SUB [/move_group/fake_controller_joint_states] /joint_state_publisher http://xw6600:54096/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,626: +PUB [/joint_states] /joint_state_publisher http://xw6600:54096/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,670: +PUB [/rosout] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,671: +SERVICE [/move_group/get_loggers] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,672: +SERVICE [/move_group/set_logger_level] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,680: +SUB [/tf] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,686: +SUB [/tf_static] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,691: publisherUpdate[/joint_states] -> http://xw6600:45202/ ['http://xw6600:54096/']
+[rosmaster.master][INFO] 2017-04-16 12:56:59,693: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:45202/', 'http://xw6600:54096/', 'http://xw6600:32793/']
+[rosmaster.master][INFO] 2017-04-16 12:56:59,694: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:45202/', 'http://xw6600:54096/', 'http://xw6600:32793/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-04-16 12:56:59,694: publisherUpdate[/joint_states] -> http://xw6600:45202/ ['http://xw6600:54096/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-04-16 12:56:59,868: +PUB [/rosout] /rviz_xw6600_6840_6061290368335357027 http://xw6600:37882/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,869: +SERVICE [/rviz_xw6600_6840_6061290368335357027/get_loggers] /rviz_xw6600_6840_6061290368335357027 http://xw6600:37882/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,870: +SERVICE [/rviz_xw6600_6840_6061290368335357027/set_logger_level] /rviz_xw6600_6840_6061290368335357027 http://xw6600:37882/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,895: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:45202/', 'http://xw6600:54096/', 'http://xw6600:32793/', 'http://xw6600:37882/']
+[rosmaster.master][INFO] 2017-04-16 12:56:59,896: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:45202/', 'http://xw6600:54096/', 'http://xw6600:32793/', 'http://xw6600:37882/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-04-16 12:56:59,974: +SERVICE [/move_group/planning_scene_monitor/set_parameters] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,975: +PUB [/move_group/planning_scene_monitor/parameter_descriptions] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,977: +PUB [/move_group/planning_scene_monitor/parameter_updates] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,984: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:56:59,986: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene_hz] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:56:59,987: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:56:59,988: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:56:59,989: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:56:59,991: +PUB [/move_group/monitored_planning_scene] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:56:59,992: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:56:59,993: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene_hz] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:56:59,995: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:56:59,996: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:56:59,997: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,004: +SUB [/planning_scene] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,011: +SUB [/collision_object] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,018: +SUB [/planning_scene_world] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,023: +SERVICE [/move_group/save_map] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,024: +SERVICE [/move_group/load_map] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,042: +SUB [/joint_states] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,050: +SUB [/attached_collision_object] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,298: +SERVICE [/move_group/ompl/set_parameters] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,300: +PUB [/move_group/ompl/parameter_descriptions] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,301: +PUB [/move_group/ompl/parameter_updates] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,308: +PARAM [/move_group/ompl/simplify_solutions] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,309: +PARAM [/move_group/ompl/minimum_waypoint_count] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,310: +PARAM [/move_group/ompl/maximum_waypoint_distance] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,312: +PARAM [/move_group/ompl/link_for_exploration_tree] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,313: +PARAM [/move_group/ompl/display_random_valid_states] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,315: +PARAM [/move_group/ompl/simplify_solutions] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,316: +PARAM [/move_group/ompl/minimum_waypoint_count] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,317: +PARAM [/move_group/ompl/maximum_waypoint_distance] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,318: +PARAM [/move_group/ompl/link_for_exploration_tree] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,319: +PARAM [/move_group/ompl/display_random_valid_states] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,402: +PUB [/move_group/display_planned_path] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,403: +PUB [/move_group/display_contacts] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,413: +SUB [/tf] /rviz_xw6600_6840_6061290368335357027 http://xw6600:37882/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,423: +SUB [/tf_static] /rviz_xw6600_6840_6061290368335357027 http://xw6600:37882/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,487: +PUB [/move_group/fake_controller_joint_states] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,496: +SUB [/trajectory_execution_event] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,497: publisherUpdate[/move_group/fake_controller_joint_states] -> http://xw6600:54096/ ['http://xw6600:32793/']
+[rosmaster.master][INFO] 2017-04-16 12:57:00,499: publisherUpdate[/move_group/fake_controller_joint_states] -> http://xw6600:54096/ ['http://xw6600:32793/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-04-16 12:57:00,500: +SERVICE [/move_group/trajectory_execution/set_parameters] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,502: +PUB [/move_group/trajectory_execution/parameter_descriptions] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,503: +PUB [/move_group/trajectory_execution/parameter_updates] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,509: +PARAM [/move_group/trajectory_execution/execution_duration_monitoring] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,510: +PARAM [/move_group/trajectory_execution/allowed_execution_duration_scaling] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,511: +PARAM [/move_group/trajectory_execution/allowed_goal_duration_margin] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,513: +PARAM [/move_group/trajectory_execution/execution_velocity_scaling] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,514: +PARAM [/move_group/trajectory_execution/allowed_start_tolerance] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,515: +PARAM [/move_group/trajectory_execution/execution_duration_monitoring] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,517: +PARAM [/move_group/trajectory_execution/allowed_execution_duration_scaling] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,519: +PARAM [/move_group/trajectory_execution/allowed_goal_duration_margin] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,520: +PARAM [/move_group/trajectory_execution/execution_velocity_scaling] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,521: +PARAM [/move_group/trajectory_execution/allowed_start_tolerance] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,523: +SERVICE [/move_group/plan_execution/set_parameters] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,524: +PUB [/move_group/plan_execution/parameter_descriptions] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,526: +PUB [/move_group/plan_execution/parameter_updates] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,529: +PARAM [/move_group/plan_execution/max_replan_attempts] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,530: +PARAM [/move_group/plan_execution/record_trajectory_state_frequency] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,532: +PARAM [/move_group/plan_execution/max_replan_attempts] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,533: +PARAM [/move_group/plan_execution/record_trajectory_state_frequency] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,536: +SERVICE [/move_group/sense_for_plan/set_parameters] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,537: +PUB [/move_group/sense_for_plan/parameter_descriptions] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,538: +PUB [/move_group/sense_for_plan/parameter_updates] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,544: +PARAM [/move_group/sense_for_plan/max_safe_path_cost] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,546: +PARAM [/move_group/sense_for_plan/max_look_attempts] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,547: +PARAM [/move_group/sense_for_plan/max_cost_sources] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,549: +PARAM [/move_group/sense_for_plan/discard_overlapping_cost_sources] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,551: +PARAM [/move_group/sense_for_plan/max_safe_path_cost] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,553: +PARAM [/move_group/sense_for_plan/max_look_attempts] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,555: +PARAM [/move_group/sense_for_plan/max_cost_sources] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,557: +PARAM [/move_group/sense_for_plan/discard_overlapping_cost_sources] by /move_group
+[rosmaster.master][INFO] 2017-04-16 12:57:00,558: +PUB [/move_group/display_cost_sources] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,560: +PUB [/move_group/motion_plan_request] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,586: +PUB [/initialpose] /rviz_xw6600_6840_6061290368335357027 http://xw6600:37882/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,588: +PUB [/goal] /rviz_xw6600_6840_6061290368335357027 http://xw6600:37882/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,656: +SERVICE [/apply_planning_scene] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,658: +SERVICE [/clear_octomap] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,660: +SERVICE [/compute_cartesian_path] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,661: +SERVICE [/execute_kinematic_path] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,665: +PUB [/execute_trajectory/result] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,666: +PUB [/execute_trajectory/feedback] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,667: +PUB [/execute_trajectory/status] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,676: +SUB [/execute_trajectory/goal] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,683: +SUB [/execute_trajectory/cancel] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,684: +SERVICE [/get_planning_scene] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,685: +SERVICE [/compute_fk] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,687: +SERVICE [/compute_ik] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,690: +PUB [/move_group/result] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,692: +PUB [/move_group/feedback] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,693: +PUB [/move_group/status] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,703: +SUB [/move_group/goal] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,709: +SUB [/move_group/cancel] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,789: +PUB [/move_group/display_grasp_markers] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,794: +PUB [/pickup/result] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,795: +PUB [/pickup/feedback] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,796: +PUB [/pickup/status] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,807: +SUB [/pickup/goal] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,813: +SUB [/pickup/cancel] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,817: +PUB [/place/result] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,818: +PUB [/place/feedback] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,819: +PUB [/place/status] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,829: +SUB [/place/goal] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,835: +SUB [/place/cancel] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,837: +SERVICE [/plan_kinematic_path] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,838: +SERVICE [/query_planner_interface] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,840: +SERVICE [/get_planner_params] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,841: +SERVICE [/set_planner_params] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:00,842: +SERVICE [/check_state_validity] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,251: -SUB [/move_group/fake_controller_joint_states] /joint_state_publisher http://xw6600:54096/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,251: -PUB [/joint_states] /joint_state_publisher http://xw6600:54096/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,252: -PUB [/rosout] /joint_state_publisher http://xw6600:54096/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,252: -SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher rosrpc://xw6600:40205
+[rosmaster.master][INFO] 2017-04-16 12:57:04,252: -SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher rosrpc://xw6600:40205
+[rosmaster.master][INFO] 2017-04-16 12:57:04,303: publisherUpdate[/joint_states] -> http://xw6600:45202/ []
+[rosmaster.master][INFO] 2017-04-16 12:57:04,304: publisherUpdate[/joint_states] -> http://xw6600:32793/ []
+[rosmaster.master][INFO] 2017-04-16 12:57:04,305: publisherUpdate[/joint_states] -> http://xw6600:45202/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2017-04-16 12:57:04,306: publisherUpdate[/joint_states] -> http://xw6600:32793/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2017-04-16 12:57:04,306: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:45202/', 'http://xw6600:32793/', 'http://xw6600:37882/']
+[rosmaster.master][INFO] 2017-04-16 12:57:04,308: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:45202/', 'http://xw6600:32793/', 'http://xw6600:37882/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-04-16 12:57:04,406: -PUB [/rosout] /robot_state_publisher http://xw6600:45202/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,407: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:32793/', 'http://xw6600:37882/']
+[rosmaster.master][INFO] 2017-04-16 12:57:04,408: -PUB [/rosout] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,409: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:32793/', 'http://xw6600:37882/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-04-16 12:57:04,410: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:37882/']
+[rosmaster.master][INFO] 2017-04-16 12:57:04,411: -PUB [/tf] /robot_state_publisher http://xw6600:45202/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,411: publisherUpdate[/rosout] -> http://xw6600:41044/ ['http://xw6600:37882/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2017-04-16 12:57:04,412: -PUB [/move_group/planning_scene_monitor/parameter_descriptions] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,413: publisherUpdate[/tf] -> http://xw6600:32793/ []
+[rosmaster.master][INFO] 2017-04-16 12:57:04,414: -PUB [/tf_static] /robot_state_publisher http://xw6600:45202/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,416: publisherUpdate[/tf] -> http://xw6600:32793/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2017-04-16 12:57:04,416: -PUB [/move_group/planning_scene_monitor/parameter_updates] /move_group http://xw6600:32793/
+[rosmaster.threadpool][ERROR] 2017-04-16 12:57:04,419: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1591, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-04-16 12:57:04,420: publisherUpdate[/tf] -> http://xw6600:37882/ []
+[rosmaster.master][INFO] 2017-04-16 12:57:04,421: -SUB [/joint_states] /robot_state_publisher http://xw6600:45202/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,422: -PUB [/move_group/monitored_planning_scene] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,423: publisherUpdate[/tf] -> http://xw6600:37882/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2017-04-16 12:57:04,424: -PUB [/move_group/ompl/parameter_descriptions] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,426: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://xw6600:43549
+[rosmaster.master][INFO] 2017-04-16 12:57:04,427: -PUB [/move_group/ompl/parameter_updates] /move_group http://xw6600:32793/
+[rosmaster.threadpool][ERROR] 2017-04-16 12:57:04,428: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1591, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1035, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 879, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 841, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 822, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-04-16 12:57:04,428: publisherUpdate[/tf_static] -> http://xw6600:32793/ []
+[rosmaster.master][INFO] 2017-04-16 12:57:04,429: publisherUpdate[/tf_static] -> http://xw6600:32793/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2017-04-16 12:57:04,430: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://xw6600:43549
+[rosmaster.threadpool][ERROR] 2017-04-16 12:57:04,431: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1591, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1306, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1482, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 794, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2017-04-16 12:57:04,431: -PUB [/move_group/display_planned_path] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,432: publisherUpdate[/tf_static] -> http://xw6600:37882/ []
+[rosmaster.master][INFO] 2017-04-16 12:57:04,433: -PUB [/move_group/display_contacts] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,434: publisherUpdate[/tf_static] -> http://xw6600:37882/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.master][INFO] 2017-04-16 12:57:04,435: -PUB [/move_group/fake_controller_joint_states] /move_group http://xw6600:32793/
+[rosmaster.threadpool][ERROR] 2017-04-16 12:57:04,435: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1233, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1591, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1273, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1301, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1448, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1035, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 879, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 841, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 822, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 571, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2017-04-16 12:57:04,436: -PUB [/move_group/trajectory_execution/parameter_descriptions] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,437: -PUB [/move_group/trajectory_execution/parameter_updates] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,438: -PUB [/move_group/plan_execution/parameter_descriptions] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,439: -PUB [/move_group/plan_execution/parameter_updates] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,440: -PUB [/move_group/sense_for_plan/parameter_descriptions] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,441: -PUB [/move_group/sense_for_plan/parameter_updates] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,443: -PUB [/move_group/display_cost_sources] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,444: -PUB [/move_group/motion_plan_request] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,445: -PUB [/execute_trajectory/result] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,446: -PUB [/execute_trajectory/feedback] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,447: -PUB [/execute_trajectory/status] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,448: -PUB [/move_group/result] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,449: -PUB [/move_group/feedback] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,450: -PUB [/move_group/status] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,451: -PUB [/move_group/display_grasp_markers] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,453: -PUB [/pickup/result] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,454: -PUB [/pickup/feedback] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,455: -PUB [/pickup/status] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,456: -PUB [/place/result] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,457: -PUB [/place/feedback] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,458: -PUB [/place/status] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,459: -SUB [/tf] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,461: -SUB [/tf_static] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,462: -SUB [/planning_scene] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,463: -SUB [/collision_object] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,464: -SUB [/planning_scene_world] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,465: -SUB [/joint_states] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,466: -SUB [/attached_collision_object] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,467: -SUB [/trajectory_execution_event] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,468: -SUB [/execute_trajectory/goal] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,469: -SUB [/execute_trajectory/cancel] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,470: -SUB [/move_group/goal] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,471: -SUB [/move_group/cancel] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,472: -SUB [/pickup/goal] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,473: -SUB [/pickup/cancel] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,474: -SUB [/place/goal] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,475: -SUB [/place/cancel] /move_group http://xw6600:32793/
+[rosmaster.master][INFO] 2017-04-16 12:57:04,477: -SERVICE [/move_group/get_loggers] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,478: -SERVICE [/move_group/set_logger_level] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,479: -SERVICE [/move_group/planning_scene_monitor/set_parameters] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,480: -SERVICE [/move_group/save_map] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,481: -SERVICE [/move_group/load_map] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,482: -SERVICE [/move_group/ompl/set_parameters] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,483: -SERVICE [/move_group/trajectory_execution/set_parameters] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,488: -SERVICE [/move_group/plan_execution/set_parameters] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,489: -SERVICE [/move_group/sense_for_plan/set_parameters] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,490: -SERVICE [/apply_planning_scene] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,492: -SERVICE [/clear_octomap] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,493: -SERVICE [/compute_cartesian_path] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,494: -SERVICE [/execute_kinematic_path] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,495: -SERVICE [/get_planning_scene] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,496: -SERVICE [/compute_fk] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,497: -SERVICE [/compute_ik] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,498: -SERVICE [/plan_kinematic_path] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,499: -SERVICE [/query_planner_interface] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,500: -SERVICE [/get_planner_params] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,501: -SERVICE [/set_planner_params] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:04,502: -SERVICE [/check_state_validity] /move_group rosrpc://xw6600:42908
+[rosmaster.master][INFO] 2017-04-16 12:57:05,013: -PUB [/rosout_agg] /rosout http://xw6600:41044/
+[rosmaster.master][INFO] 2017-04-16 12:57:05,015: -SUB [/rosout] /rosout http://xw6600:41044/
+[rosmaster.master][INFO] 2017-04-16 12:57:05,016: -SERVICE [/rosout/get_loggers] /rosout rosrpc://xw6600:36551
+[rosmaster.master][INFO] 2017-04-16 12:57:05,017: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://xw6600:36551
+[rosmaster.main][INFO] 2017-04-16 12:57:05,048: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2017-04-16 12:57:05,048: stopping master...
+[rospy.core][INFO] 2017-04-16 12:57:05,049: signal_shutdown [atexit]

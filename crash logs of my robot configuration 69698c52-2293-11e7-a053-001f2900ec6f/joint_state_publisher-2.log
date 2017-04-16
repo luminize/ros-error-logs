@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2017-04-16 12:56:59,463: init_node, name[/joint_state_publisher], pid[6881]
+[xmlrpc][INFO] 2017-04-16 12:56:59,464: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2017-04-16 12:56:59,465: Started XML-RPC server [http://xw6600:54096/]
+[rospy.init][INFO] 2017-04-16 12:56:59,465: ROS Slave URI: [http://xw6600:54096/]
+[rospy.impl.masterslave][INFO] 2017-04-16 12:56:59,465: _ready: http://xw6600:54096/
+[xmlrpc][INFO] 2017-04-16 12:56:59,466: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2017-04-16 12:56:59,467: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2017-04-16 12:56:59,566: registered with master
+[rospy.rosout][INFO] 2017-04-16 12:56:59,566: initializing /rosout core topic
+[rospy.rosout][INFO] 2017-04-16 12:56:59,570: connected to core topic /rosout
+[rospy.simtime][INFO] 2017-04-16 12:56:59,572: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2017-04-16 12:56:59,795: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2017-04-16 12:56:59,895: topic[/joint_states] adding connection to [/robot_state_publisher], count 0
+[rospy.internal][INFO] 2017-04-16 12:57:00,200: topic[/joint_states] adding connection to [/move_group], count 1
+[rospy.internal][INFO] 2017-04-16 12:57:00,549: topic[/move_group/fake_controller_joint_states] adding connection to [http://xw6600:32793/], count 0
+[rospy.core][INFO] 2017-04-16 12:57:04,248: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2017-04-16 12:57:04,254: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2017-04-16 12:57:04,254: topic[/joint_states] removing connection to /move_group
+[rospy.internal][INFO] 2017-04-16 12:57:04,255: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2017-04-16 12:57:04,255: topic[/move_group/fake_controller_joint_states] removing connection to http://xw6600:32793/
+[rospy.impl.masterslave][INFO] 2017-04-16 12:57:04,256: signal-2
+[rospy.core][INFO] 2017-04-16 12:57:04,364: signal_shutdown [atexit]
