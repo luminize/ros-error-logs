@@ -1,0 +1,3 @@
+logging to /home/machinekit/.ros/log/612db538-2287-11e7-a053-001f2900ec6f/rosout.log
+re-publishing aggregated messages to /rosout_agg
+subscribed to /rosout
